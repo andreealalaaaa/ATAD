@@ -1,3 +1,5 @@
+Solved problems for ATAD course  
+
 1. Solve Me First problem - Easy - 0.5 points - solveMeFirst.rs   
    https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true  
    Function:  
