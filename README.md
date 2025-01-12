@@ -1,4 +1,4 @@
-1. Solve Me First problem - Easy - 0.5 points
+1. Solve Me First problem - Easy - 0.5 points - solveMeFirst.rs   
    https://www.hackerrank.com/challenges/solve-me-first/problem?isFullScreen=true  
    Function:  
      solveMeFirst computes the sum of two integers and returns the result.  
@@ -9,7 +9,7 @@
      Trims whitespace and parses the input strings into integers, handling parsing errors similarly.  
      Calls solveMeFirst with the parsed integers and prints the result.  
 
-2. Simple Array Sum problem - Easy - 0.5 points  
+2. Simple Array Sum problem - Easy - 0.5 points - simpleArraySum.rs   
    https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true  
    simpleArraySum  Function:  
    Takes a slice of integers (&[i32]) as input.  
@@ -22,7 +22,7 @@
    Calls simpleArraySum to compute the sum of the array.  
    The result is written to a file using the OUTPUT_PATH environment variable.  
    
-3. Compare the Triplets problem - Easy - 0.5 points  
+3. Compare the Triplets problem - Easy - 0.5 points - compareTheTriplets.rs   
    https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true  
    compareTriplets Function:  
    Takes two input arrays (a and b) representing the ratings of Alice and Bob.  
@@ -41,7 +41,7 @@
    The result is written to a file using the OUTPUT_PATH environment variable.  
    The points are printed in the format [Alice's score, Bob's score].  
 
-4. A Very Big Sum problem - Easy - 0.5 points
+4. A Very Big Sum problem - Easy - 0.5 points - aVeryBigSum.rs  
    https://www.hackerrank.com/challenges/a-very-big-sum/problem?isFullScreen=true 
    aVeryBigSum Function:  
   
@@ -55,7 +55,7 @@
    The aVeryBigSum function is called with the vector ar to calculate the sum.  
    The result is written to a file using the OUTPUT_PATH environment variable.  
    
-5. Diagonal Difference problem - Easy - 0.5 points
+5. Diagonal Difference problem - Easy - 0.5 points - diagonalDifference.rs  
    https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true
    diagonalDifference Function:  
    Computes the absolute difference between the sums of the two diagonals of a square matrix.  
@@ -71,7 +71,7 @@
    Calls the diagonalDifference function to calculate the result.  
    The result is written to a file using the OUTPUT_PATH environment variable.  
 
-6. Plus Minus problem - Easy - 0.5 points  
+6. Plus Minus problem - Easy - 0.5 points - plusMinus.rs   
    https://www.hackerrank.com/challenges/plus-minus/problem?isFullScreen=true  
    plusMinus Function:  
    Accepts a reference to an array (arr) containing integers.  
@@ -89,7 +89,7 @@
    The array elements are read, split by spaces, and parsed into integers before being stored in a Vec<i32>.  
    The plusMinus function is called to calculate and print the ratios.  
    
-7. Staircase problem - Easy - 0.5 points  
+7. Staircase problem - Easy - 0.5 points - staircase.rs   
    https://www.hackerrank.com/challenges/staircase/problem?isFullScreen=true
    staircase Function:  
    Accepts an integer n (size of the staircase).  
@@ -103,7 +103,7 @@
    Reads the input size n using stdin.  
    Calls the staircase(n) function to print the staircase of size n.  
    
-8. Mini-Max Sum problem - Easy - 0.5 points  
+8. Mini-Max Sum problem - Easy - 0.5 points - miniMaxSum.rs   
    https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true  
    miniMaxSum Function:  
    Sets min to the first element of the array (arr[0]) to track the minimum value.  
@@ -122,7 +122,7 @@
    Calls miniMaxSum with the input array.  
    Prints the result directly from miniMaxSum.  
    
-9. Birthday Cake Candles problem - Easy - 0.5 points  
+9. Birthday Cake Candles problem - Easy - 0.5 points - birthdayCakeCandles.rs   
    https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true  
    birthdayCakeCandles Function:  
    Uses .max() to find the maximum height in the candles array.  
@@ -133,7 +133,7 @@
    Calls birthdayCakeCandles with the candle heights and stores the result.  
    The result is written to a file using the OUTPUT_PATH environment variable.  
     
-10. Time Conversion problem - Easy - 0.5 points  
+10. Time Conversion problem - Easy - 0.5 points - timeConversion.rs   
     https://www.hackerrank.com/challenges/time-conversion/problem?isFullScreen=true  
     timeConversion Function:  
     Extracts the last two characters of the string to determine whether it’s AM or PM.  
@@ -148,7 +148,7 @@
     Calls the timeConversion function to convert the time to 24-hour format.  
     The result is written to a file using the OUTPUT_PATH environment variable.  
     
-11. Forming a Magic Square problem - Medium - 1 point  
+11. Forming a Magic Square problem - Medium - 1 point - formingMagicSquare.rs   
     https://www.hackerrank.com/challenges/magic-square-forming/problem?isFullScreen=true  
     formingMagicSquare Function:  
     Has as input a 3x3 matrix (s).  
@@ -164,7 +164,7 @@
     Passes the matrix to the formingMagicSquare function.  
     Prints the minimum transformation cost.  
     
-12. Number Line Jumps problem - Easy - 0.5 points  
+12. Number Line Jumps problem - Easy - 0.5 points - kangaroo.rs  
     https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?isFullScreen=true  
     kangaroo Function:  
     Checks if kangaroos can meet:  
@@ -178,7 +178,7 @@
     Main Function:  
     Calls kangaroo for each test case (position and velocity) and prints the result.  
 
-13. Between Two Sets problem - Easy - 0.5 points  
+13. Between Two Sets problem - Easy - 0.5 points - getTotalX.rs   
     https://www.hackerrank.com/challenges/between-two-sets/problem?isFullScreen=true  
     getTotalX Function:   
     Computes the LCM of all elements in a and the GCD of all elements in b.  
@@ -190,7 +190,7 @@
     Calls getTotalX to find how many numbers satisfy the condition.  
     Prints the result.  
     
-14. Breaking the Records problem - Easy - 0.5 points  
+14. Breaking the Records problem - Easy - 0.5 points - breakingRecords.rs    
     https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem?isFullScreen=true  
     breakingRecords Function:  
     Takes a slice of integers representing scores.  
@@ -206,7 +206,7 @@
     Calls the breakingRecords function with the scores to get the counts of high and low record breaks.  
     Prints the result as two space-separated integers for the high and low record breaks.  
     
-15. Subarray Division problem - Easy - 0.5 points  
+15. Subarray Division problem - Easy - 0.5 points - birthday.rs     
     https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true  
     birthday Function:  
     Takes a reference to a vector s representing the chocolate bar, an integer d representing the length of the segment, and an integer m representing the target sum.  
@@ -219,7 +219,7 @@
     Defines the chocolate array s, the segment length d, and the target sum m.  
     Calls the birthday() function with the chocolate array and prints the result.  
     
-16. Divisible Sum Pairs problem - Easy - 0.5 points  
+16. Divisible Sum Pairs problem - Easy - 0.5 points - divisibleSumPairs.rs   
     https://www.hackerrank.com/challenges/divisible-sum-pairs/problem?isFullScreen=true  
     divisibleSumPairs Function:  
     Receives the length n of the array, the divisor k, and a reference to the array ar.  
@@ -235,7 +235,7 @@
     Initializes the array ar, the size n, and the divisor k.  
     Calls the divisibleSumPairs function and prints the result.  
     
-17. Migratory Birds problem - Easy - 0.5 points  
+17. Migratory Birds problem - Easy - 0.5 points  - migratoryBirds.rs  
     https://www.hackerrank.com/challenges/migratory-birds/problem?isFullScreen=true  
     migratoryBirds Function:  
     Initializes a HashMap to count the frequency of each bird type.  
